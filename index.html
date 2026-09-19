@@ -1,478 +1,663 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f2eddf">
-    <meta name="description" content="Jemoon's Kingdom is a joyful digital animal world full of wild residents, surprising facts, field technology and royal greetings.">
-    <title>Jemoon's Kingdom — A Whole Lot of Animals</title>
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="css/styles.css">
-    <script>document.documentElement.classList.add('js');</script>
-    <script src="js/app.js" defer></script>
-  </head>
-  <body>
-    <a class="skip-link" href="#main-content">Skip to the kingdom</a>
 
-    <div class="page-progress" aria-hidden="true"><span></span></div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2eddf">
+  <meta name="robots" content="index, follow">
+  <meta name="description"
+    content="Jemoon's Kingdom is a joyful digital animal world full of wild residents, surprising facts, field technology and royal greetings.">
+  <title>Jemoon's Kingdom — A Whole Lot of Animals</title>
+  <link rel="canonical" href="https://jemoonskingdom.uk/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="js/app.js" defer></script>
+</head>
 
-    <div class="announcement">
-      <div class="announcement__track">
-        <span>THE GATES ARE OPEN</span><i>✦</i>
-        <span>EVERY CREATURE HAS A STORY</span><i>✦</i>
-        <span>WELCOME, YOUR MAJESTY</span><i>✦</i>
-        <span aria-hidden="true">THE GATES ARE OPEN</span><i aria-hidden="true">✦</i>
-        <span aria-hidden="true">EVERY CREATURE HAS A STORY</span><i aria-hidden="true">✦</i>
-        <span aria-hidden="true">WELCOME, YOUR MAJESTY</span><i aria-hidden="true">✦</i>
-      </div>
+<body>
+  <a class="skip-link" href="#main-content">Skip to the kingdom</a>
+
+  <div class="page-progress" aria-hidden="true"><span></span></div>
+
+  <div class="announcement">
+    <div class="announcement__track">
+      <span>THE GATES ARE OPEN</span><i>✦</i>
+      <span>EVERY CREATURE HAS A STORY</span><i>✦</i>
+      <span>WELCOME, YOUR MAJESTY</span><i>✦</i>
+      <span aria-hidden="true">THE GATES ARE OPEN</span><i aria-hidden="true">✦</i>
+      <span aria-hidden="true">EVERY CREATURE HAS A STORY</span><i aria-hidden="true">✦</i>
+      <span aria-hidden="true">WELCOME, YOUR MAJESTY</span><i aria-hidden="true">✦</i>
     </div>
+  </div>
 
-    <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="Jemoon's Kingdom, back to top">
+  <header class="site-header" data-header>
+    <a class="brand" href="#top" aria-label="Jemoon's Kingdom, back to top">
+      <span class="brand__crown" aria-hidden="true">♛</span>
+      <span>JEMOON'S<br>KINGDOM</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"
+      aria-label="Open navigation">
+      <span class="menu-toggle__label">Menu</span>
+      <span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+
+    <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation">
+      <a href="#residents">Residents</a>
+      <a href="#wild-facts">Wild facts</a>
+      <a href="#field-lab">Field lab</a>
+      <a href="#royal-greeting">Say hello</a>
+    </nav>
+
+    <a class="nav-badge" href="#residents">
+      <span>11</span>
+      <small>royal residents</small>
+    </a>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <img class="hero__image" src="assets/images/hero-kingdom.jpg" width="1672" height="941"
+        alt="A royal gathering of a llama, giraffe, elephant, tiger, lion, duck and cat in a lush forest"
+        fetchpriority="high">
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="eyebrow eyebrow--light"><span>01</span> The royal welcome</p>
+        <h1 id="hero-title">HELLO,<br>YOUR MAJESTY<br><em>JEMOON.</em></h1>
+        <p class="hero__intro">A whole lot of animals. One unforgettable kingdom. Come for the llamas, stay for the
+          quacks, paws, stripes and very serious royal roars.</p>
+        <div class="hero__actions">
+          <a class="button button--yellow" href="#residents">Meet the residents <span aria-hidden="true">↘</span></a>
+          <a class="text-link text-link--light" href="#royal-greeting">Get a royal greeting <span
+              aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="hero__seal" aria-hidden="true">
+        <span>ALL<br>ANIMALS<br>LOVED</span>
+        <b>♥</b>
+      </div>
+
+      <div class="hero__caption">
+        <span>THE KINGDOM / 2026</span>
+        <span>ROARS • QUACKS • HUMS</span>
+      </div>
+    </section>
+
+    <section class="animal-roll" aria-label="Animals in Jemoon's Kingdom">
+      <div class="animal-roll__track">
+        <span>LLAMAS</span><b>✦</b><span>DUCKS</span><b>✦</b><span>CATS</span><b>✦</b><span>DOGS</span><b>✦</b><span>CROCODILES</span><b>✦</b><span>CAMELS</span><b>✦</b><span>HORSES</span><b>✦</b><span>ELEPHANTS</span><b>✦</b><span>GIRAFFES</span><b>✦</b><span>LIONS</span><b>✦</b><span>TIGERS</span><b>✦</b>
+        <span aria-hidden="true">LLAMAS</span><b aria-hidden="true">✦</b><span aria-hidden="true">DUCKS</span><b
+          aria-hidden="true">✦</b><span aria-hidden="true">CATS</span><b aria-hidden="true">✦</b><span
+          aria-hidden="true">DOGS</span><b aria-hidden="true">✦</b><span aria-hidden="true">CROCODILES</span><b
+          aria-hidden="true">✦</b><span aria-hidden="true">CAMELS</span><b aria-hidden="true">✦</b><span
+          aria-hidden="true">HORSES</span><b aria-hidden="true">✦</b><span aria-hidden="true">ELEPHANTS</span><b
+          aria-hidden="true">✦</b><span aria-hidden="true">GIRAFFES</span><b aria-hidden="true">✦</b><span
+          aria-hidden="true">LIONS</span><b aria-hidden="true">✦</b><span aria-hidden="true">TIGERS</span><b
+          aria-hidden="true">✦</b>
+      </div>
+    </section>
+
+    <section class="kingdom-intro section-shell" aria-labelledby="kingdom-intro-title">
+      <div class="kingdom-intro__lead reveal">
+        <p class="eyebrow"><span>02</span> The big idea</p>
+        <h2 id="kingdom-intro-title">NOT JUST A ZOO.<br>A <mark>LOUD, LOVELY</mark><br>LIVING KINGDOM.</h2>
+      </div>
+      <div class="kingdom-intro__copy reveal">
+        <p class="intro-big">Built for someone who said “I like all animals” — and absolutely meant it.</p>
+        <p>This is a digital kingdom where every resident gets a portrait, a personality and one brilliant fact. No
+          tickets, no cages, just curiosity.</p>
+        <div class="quick-stats" role="group" aria-label="Kingdom highlights">
+          <div><strong>11</strong><span>resident species</span></div>
+          <div><strong>05</strong><span>wild habitats</span></div>
+          <div><strong>∞</strong><span>reasons to care</span></div>
+        </div>
+      </div>
+      <div class="kingdom-intro__stamp reveal" aria-hidden="true">
+        <span>OPEN FOR<br>CURIOUS<br>MINDS</span>
+      </div>
+    </section>
+
+    <section class="residents section-shell" id="residents" aria-labelledby="residents-title">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow"><span>03</span> The royal directory</p>
+          <h2 id="residents-title">MEET THE<br><em>RESIDENTS.</em></h2>
+        </div>
+        <p>Filter by habitat, open a field note, or let the kingdom choose someone for you.</p>
+      </div>
+
+      <div class="resident-toolbar reveal">
+        <div class="filters" role="group" aria-label="Filter residents by habitat">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All
+            <span>11</span></button>
+          <button class="filter-button" type="button" data-filter="companions" aria-pressed="false">Companions
+            <span>2</span></button>
+          <button class="filter-button" type="button" data-filter="meadow" aria-pressed="false">Meadow
+            <span>3</span></button>
+          <button class="filter-button" type="button" data-filter="desert" aria-pressed="false">Desert
+            <span>1</span></button>
+          <button class="filter-button" type="button" data-filter="savannah" aria-pressed="false">Savannah
+            <span>3</span></button>
+          <button class="filter-button" type="button" data-filter="wild" aria-pressed="false">Wild side
+            <span>2</span></button>
+        </div>
+        <button class="surprise-button" id="surprise-animal" type="button">Surprise me <span
+            aria-hidden="true">✦</span></button>
+      </div>
+      <p class="filter-status" id="filter-status" aria-live="polite">Showing all 11 royal residents.</p>
+
+      <div class="resident-grid" id="resident-grid">
+        <article class="resident-card resident-card--wide tone-yellow reveal" data-category="meadow">
+          <div class="resident-card__media">
+            <img src="assets/images/llama.jpg" width="960" height="640"
+              alt="Two llamas walking beside a colorful high-altitude lake" loading="lazy">
+            <span class="resident-card__number">01</span>
+            <span class="resident-card__tag">Meadow crew</span>
+          </div>
+          <div class="resident-card__body">
+            <div>
+              <p class="resident-card__latin">Lama glama</p>
+              <h3>LLAMA</h3>
+            </div>
+            <p>The soft-spoken ambassador with excellent ears and impeccable mountain style.</p>
+            <details class="field-note">
+              <summary>Open field note <span aria-hidden="true">+</span></summary>
+              <p>Llamas hum to communicate. Their ears and body posture also reveal how they are feeling.</p>
+            </details>
+          </div>
+        </article>
+
+        <article class="resident-card tone-blue reveal" data-category="meadow">
+          <div class="resident-card__media">
+            <img src="assets/images/duck.jpg" width="960" height="589"
+              alt="A female and male mallard standing together at the water's edge" loading="lazy">
+            <span class="resident-card__number">02</span>
+            <span class="resident-card__tag">Pond patrol</span>
+          </div>
+          <div class="resident-card__body">
+            <div>
+              <p class="resident-card__latin">Anas platyrhynchos</p>
+              <h3>DUCK</h3>
+            </div>
+            <p>Professional puddle inspector. Always dressed for unexpected weather.</p>
+            <details class="field-note">
+              <summary>Open field note <span aria-hidden="true">+</span></summary>
+              <p>Ducks spread oil from a preen gland across their feathers, helping the outer layer repel water.</p>
+            </details>
+          </div>
+        </article>
+
+        <article class="resident-card tone-pink reveal" data-category="companions">
+          <div class="resident-card__media">
+            <img src="assets/images/cat.jpg" width="960" height="1282" alt="A striped tabby cat sitting in snow"
+              loading="lazy">
+            <span class="resident-card__number">03</span>
+            <span class="resident-card__tag">Castle cat</span>
+          </div>
+          <div class="resident-card__body">
+            <div>
+              <p class="resident-card__latin">Felis catus</p>
+              <h3>CAT</h3>
+            </div>
+            <p>Keeper of windowsills, cardboard boxes and several royal secrets.</p>
+            <details class="field-note">
+              <summary>Open field note <span aria-hidden="true">+</span></summary>
+              <p>A cat's whiskers are sensitive touch tools that help it judge nearby spaces and air movement.</p>
+            </details>
+          </div>
+        </article>
+
+        <article class="resident-card tone-coral reveal" data-category="companions">
+          <div class="resident-card__media">
+            <img src="assets/images/dog.jpg" width="960" height="720"
+              alt="A brown dog looking toward the camera in warm water" loading="lazy">
+            <span class="resident-card__number">04</span>
+            <span class="resident-card__tag">Best friend</span>
+          </div>
+          <div class="resident-card__body">
+            <div>
+              <p class="resident-card__latin">Canis familiaris</p>
+              <h3>DOG</h3>
+            </div>
+            <p>Chief welcome officer. Tail-powered, loyal and ready for every expedition.</p>
+            <details class="field-note">
+              <summary>Open field note <span aria-hidden="true">+</span></summary>
+              <p>A moist nose helps trap scent particles, giving a dog's remarkable sense of smell more information.</p>
+            </details>
+          </div>
+        </article>
+
+        <article class="resident-card resident-card--panorama tone-green reveal" data-category="wild">
+          <div class="resident-card__media">
+            <img src="assets/images/crocodile.jpg" width="960" height="475"
+              alt="A Nile crocodile resting in golden grass" loading="lazy">
+            <span class="resident-card__number">05</span>
+            <span class="resident-card__tag">River royalty</span>
+          </div>
+          <div class="resident-card__body">
+            <div>
+              <p class="resident-card__latin">Crocodylus niloticus</p>
+              <h3>CROCODILE</h3>
+            </div>
+            <p>Ancient armor, patient eyes and the quiet confidence of a river legend.</p>
+            <details class="field-note">
+              <summary>Open field note <span aria-hidden="true">+</span></summary>
+              <p>Crocodiles replace worn teeth throughout their lives and can grow thousands of teeth over time.</p>
+            </details>
+          </div>
+        </article>
+
+        <article class="resident-card tone-sand reveal" data-category="desert">
+          <div class="resident-card__media">
+            <img src="assets/images/camel.jpg" width="960" height="592"
+              alt="A decorated dromedary camel resting on desert sand" loading="lazy">
+            <span class="resident-card__number">06</span>
+            <span class="resident-card__tag">Desert club</span>
+          </div>
+          <div class="resident-card__body">
+            <div>
+              <p class="resident-card__latin">Camelus dromedarius</p>
+              <h3>CAMEL</h3>
+            </div>
+            <p>The long-distance expert who makes hot sand look like a royal runway.</p>
+            <details class="field-note">
+              <summary>Open field note <span aria-hidden="true">+</span></summary>
+              <p>A camel's hump stores energy-rich fat, not water. That reserve helps when food is scarce.</p>
+            </details>
+          </div>
+        </article>
+
+        <article class="resident-card tone-cream reveal" data-category="meadow">
+          <div class="resident-card__media">
+            <img src="assets/images/horse.jpg" width="960" height="676"
+              alt="A white and brown horse standing beside a pale wall" loading="lazy">
+            <span class="resident-card__number">07</span>
+            <span class="resident-card__tag">Meadow crew</span>
+          </div>
+          <div class="resident-card__body">
+            <div>
+              <p class="resident-card__latin">Equus caballus</p>
+              <h3>HORSE</h3>
+            </div>
+            <p>Wind in the mane, thunder in the hooves and kindness in the eyes.</p>
+            <details class="field-note">
+              <summary>Open field note <span aria-hidden="true">+</span></summary>
+              <p>Horses can doze while standing thanks to a system of tendons and ligaments called the stay apparatus.
+              </p>
+            </details>
+          </div>
+        </article>
+
+        <article class="resident-card tone-blue reveal" data-category="savannah">
+          <div class="resident-card__media">
+            <img src="assets/images/elephant.jpg" width="960" height="640"
+              alt="An African elephant walking with a young calf through green bush" loading="lazy">
+            <span class="resident-card__number">08</span>
+            <span class="resident-card__tag">Gentle giant</span>
+          </div>
+          <div class="resident-card__body">
+            <div>
+              <p class="resident-card__latin">Loxodonta africana</p>
+              <h3>ELEPHANT</h3>
+            </div>
+            <p>A family-first giant with a memory, a map and a language of rumbles.</p>
+            <details class="field-note">
+              <summary>Open field note <span aria-hidden="true">+</span></summary>
+              <p>Elephants use very low rumbles that can travel far through air and ground to reach distant family.</p>
+            </details>
+          </div>
+        </article>
+
+        <article class="resident-card tone-yellow reveal" data-category="savannah">
+          <div class="resident-card__media resident-card__media--portrait">
+            <img src="assets/images/giraffe.jpg" width="960" height="1439"
+              alt="A giraffe portrait framed by leafy trees" loading="lazy">
+            <span class="resident-card__number">09</span>
+            <span class="resident-card__tag">High society</span>
+          </div>
+          <div class="resident-card__body">
+            <div>
+              <p class="resident-card__latin">Giraffa camelopardalis</p>
+              <h3>GIRAFFE</h3>
+            </div>
+            <p>Head in the leaves, feet on the ground, always seeing the bigger picture.</p>
+            <details class="field-note">
+              <summary>Open field note <span aria-hidden="true">+</span></summary>
+              <p>A giraffe's dark, flexible tongue can be around 45 centimetres long — perfect for reaching leaves.</p>
+            </details>
+          </div>
+        </article>
+
+        <article class="resident-card tone-coral reveal" data-category="savannah">
+          <div class="resident-card__media">
+            <img src="assets/images/lion.jpg" width="960" height="1152" alt="A male lion resting in warm evening light"
+              loading="lazy">
+            <span class="resident-card__number">10</span>
+            <span class="resident-card__tag">The pride</span>
+          </div>
+          <div class="resident-card__body">
+            <div>
+              <p class="resident-card__latin">Panthera leo</p>
+              <h3>LION</h3>
+            </div>
+            <p>Big voice, excellent mane, surprisingly committed to afternoon naps.</p>
+            <details class="field-note">
+              <summary>Open field note <span aria-hidden="true">+</span></summary>
+              <p>Lions are the most social wild cats and usually live in family groups called prides.</p>
+            </details>
+          </div>
+        </article>
+
+        <article class="resident-card tone-green reveal" data-category="wild">
+          <div class="resident-card__media">
+            <img src="assets/images/tiger.jpg" width="960" height="640"
+              alt="A Bengal tiger walking through green forest grass" loading="lazy">
+            <span class="resident-card__number">11</span>
+            <span class="resident-card__tag">Stripe society</span>
+          </div>
+          <div class="resident-card__body">
+            <div>
+              <p class="resident-card__latin">Panthera tigris</p>
+              <h3>TIGER</h3>
+            </div>
+            <p>Forest flame, silent footsteps and a stripe pattern nobody else owns.</p>
+            <details class="field-note">
+              <summary>Open field note <span aria-hidden="true">+</span></summary>
+              <p>Every tiger has a unique stripe pattern — and the skin beneath its fur is striped too.</p>
+            </details>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wild-facts" id="wild-facts" aria-labelledby="wild-facts-title">
+      <div class="wild-facts__title section-shell reveal">
+        <p class="eyebrow eyebrow--light"><span>04</span> Wild truths</p>
+        <h2 id="wild-facts-title">SMALL FACTS.<br><em>BIG WOW.</em></h2>
+        <p>Three details that make an already wild world even more remarkable.</p>
+      </div>
+
+      <div class="fact-panels section-shell">
+        <article class="fact-panel fact-panel--giraffe reveal">
+          <img src="assets/images/giraffe.jpg" width="960" height="1439"
+            alt="Close portrait of a giraffe among green leaves" loading="lazy">
+          <div class="fact-panel__copy">
+            <span>45 CM</span>
+            <h3>ONE VERY<br>HANDY TONGUE</h3>
+            <p>A giraffe uses its long tongue and mobile lips to browse between thorns and reach the best leaves.</p>
+          </div>
+        </article>
+
+        <article class="fact-panel fact-panel--tiger reveal">
+          <div class="fact-panel__copy">
+            <span>1 OF 1</span>
+            <h3>STRIPES WITH<br>A SIGNATURE</h3>
+            <p>No two tigers wear the same pattern. Researchers can identify individuals from photographs of their
+              stripes.</p>
+          </div>
+          <img src="assets/images/tiger.jpg" width="960" height="640"
+            alt="Bengal tiger showing its distinctive black stripes" loading="lazy">
+        </article>
+
+        <article class="fact-panel fact-panel--elephant reveal">
+          <img src="assets/images/elephant.jpg" width="960" height="640"
+            alt="African elephant and calf walking together" loading="lazy">
+          <div class="fact-panel__copy">
+            <span>LOW &amp; LONG</span>
+            <h3>A RUMBLE THAT<br>TRAVELS</h3>
+            <p>Some elephant calls are below the range of human hearing and can carry over great distances.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="field-lab" id="field-lab" aria-labelledby="field-lab-title">
+      <div class="field-lab__heading section-shell reveal">
+        <p class="eyebrow"><span>05</span> Laptop + phone expedition</p>
+        <h2 id="field-lab-title">THE WILD<br><em>TECH LAB.</em></h2>
+        <p>Track paws, feathers and rumbles from a ranger's laptop or carry the whole field station in your pocket.</p>
+      </div>
+
+      <div class="field-lab__stage section-shell reveal">
+        <div class="field-lab__photo">
+          <img src="assets/images/wild-tech-lab.jpg" width="1672" height="941"
+            alt="A laptop and phone displaying wildlife tracking maps at an outdoor field station with a duck and dog"
+            loading="lazy">
+          <span class="photo-label photo-label--one">RANGER DESK / ONLINE</span>
+          <span class="photo-label photo-label--two">POCKET SAFARI / SYNCED</span>
+        </div>
+
+        <div class="lab-console">
+          <div class="lab-console__topline"><span>LIVE OBSERVATION</span><i aria-hidden="true"></i></div>
+          <p class="lab-console__label">Choose a signal</p>
+          <div class="lab-tabs" role="group" aria-label="Choose an animal signal">
+            <button type="button" class="lab-tab is-active" data-lab-species="tiger" aria-pressed="true">Tiger</button>
+            <button type="button" class="lab-tab" data-lab-species="elephant" aria-pressed="false">Elephant</button>
+            <button type="button" class="lab-tab" data-lab-species="duck" aria-pressed="false">Duck</button>
+            <button type="button" class="lab-tab" data-lab-species="llama" aria-pressed="false">Llama</button>
+          </div>
+
+          <div class="lab-reading" aria-live="polite">
+            <div class="lab-reading__symbol" id="lab-symbol" aria-hidden="true">////</div>
+            <p class="lab-reading__kicker" id="lab-kicker">STRIPE SIGNAL / 11</p>
+            <h3 id="lab-name">BENGAL TIGER</h3>
+            <dl>
+              <div>
+                <dt>Habitat</dt>
+                <dd id="lab-habitat">Forest edge</dd>
+              </div>
+              <div>
+                <dt>Status</dt>
+                <dd id="lab-status">Moving east</dd>
+              </div>
+              <div>
+                <dt>Signal</dt>
+                <dd id="lab-signal">Strong · 92%</dd>
+              </div>
+            </dl>
+            <p id="lab-fact">Camera-trap photos can identify a tiger by its one-of-a-kind stripes.</p>
+          </div>
+
+          <div class="lab-console__footer">
+            <span>01:24:36 UTC</span>
+            <span>FIELD UNIT JK–04</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="tech-benefits section-shell">
+        <article class="reveal"><span>01</span>
+          <h3>SEE THE PATTERN</h3>
+          <p>A laptop turns many sightings into one clear habitat story.</p>
+        </article>
+        <article class="reveal"><span>02</span>
+          <h3>TAKE IT OUTSIDE</h3>
+          <p>A phone keeps maps and field notes close without taking you out of the moment.</p>
+        </article>
+        <article class="reveal"><span>03</span>
+          <h3>CARE WITH DATA</h3>
+          <p>Good observation helps people protect routes, water and safe places to rest.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="royal-playground section-shell" id="royal-greeting" aria-labelledby="royal-greeting-title">
+      <div class="greeting-card reveal">
+        <p class="eyebrow"><span>06</span> The royal greeting machine</p>
+        <h2 id="royal-greeting-title">WHO SHOULD SAY<br><em>HELLO?</em></h2>
+        <p>Pick a resident. The kingdom will handle the formalities.</p>
+
+        <form class="greeting-form" id="greeting-form">
+          <label for="greeting-animal">Choose your ambassador</label>
+          <div class="select-wrap">
+            <select id="greeting-animal" name="animal">
+              <option value="llama">Llama</option>
+              <option value="duck">Duck</option>
+              <option value="cat">Cat</option>
+              <option value="dog">Dog</option>
+              <option value="crocodile">Crocodile</option>
+              <option value="camel">Camel</option>
+              <option value="horse">Horse</option>
+              <option value="elephant">Elephant</option>
+              <option value="giraffe">Giraffe</option>
+              <option value="lion">Lion</option>
+              <option value="tiger">Tiger</option>
+            </select>
+            <span aria-hidden="true">↓</span>
+          </div>
+          <button class="button button--black" type="submit">Deliver greeting <span aria-hidden="true">→</span></button>
+        </form>
+
+        <div class="greeting-output" id="greeting-output" aria-live="polite">
+          <span class="greeting-output__icon" aria-hidden="true">♛</span>
+          <p>“Hmmm hello, Your Majesty Jemoon. The llamas saved you the best mountain view.”</p>
+        </div>
+      </div>
+
+      <div class="quiz-card reveal">
+        <div class="quiz-card__top"><span>QUICK QUIZ</span><span id="quiz-progress">01 / 04</span></div>
+        <div class="quiz-card__body">
+          <p class="quiz-card__label">CAN YOU SPOT THE WILD TRUTH?</p>
+          <h2 id="quiz-question" tabindex="-1">WHAT DOES A CAMEL KEEP IN ITS HUMP?</h2>
+          <div class="quiz-options" id="quiz-options" role="group" aria-labelledby="quiz-question"></div>
+          <p class="quiz-feedback" id="quiz-feedback" aria-live="polite"></p>
+          <button class="quiz-next" id="quiz-next" type="button" hidden>Next question <span
+              aria-hidden="true">→</span></button>
+        </div>
+        <div class="quiz-card__scribble" aria-hidden="true">?</div>
+      </div>
+    </section>
+
+    <section class="moments" aria-labelledby="moments-title">
+      <div class="moments__heading section-shell reveal">
+        <p class="eyebrow"><span>07</span> Kingdom moments</p>
+        <h2 id="moments-title">A VERY FULL<br><em>ROYAL ALBUM.</em></h2>
+        <p>High necks, low rumbles, wet paws and one absolutely unbothered crocodile.</p>
+      </div>
+
+      <div class="photo-mosaic">
+        <figure class="photo-mosaic__item reveal"><img src="assets/images/cat.jpg" width="960" height="1282"
+            alt="Tabby cat posing in the snow" loading="lazy">
+          <figcaption><span>01</span> THE CASTLE CAT</figcaption>
+        </figure>
+        <figure class="photo-mosaic__item reveal"><img src="assets/images/crocodile.jpg" width="960" height="475"
+            alt="Nile crocodile resting in evening light" loading="lazy">
+          <figcaption><span>02</span> STILL WATERS</figcaption>
+        </figure>
+        <figure class="photo-mosaic__item reveal"><img src="assets/images/horse.jpg" width="960" height="676"
+            alt="Horse portrait against a pale wall" loading="lazy">
+          <figcaption><span>03</span> MANE CHARACTER</figcaption>
+        </figure>
+        <figure class="photo-mosaic__item reveal"><img src="assets/images/duck.jpg" width="960" height="589"
+            alt="Pair of mallard ducks by the water" loading="lazy">
+          <figcaption><span>04</span> DOUBLE QUACK</figcaption>
+        </figure>
+        <figure class="photo-mosaic__item reveal"><img src="assets/images/camel.jpg" width="960" height="592"
+            alt="Decorated camel in the Thar desert" loading="lazy">
+          <figcaption><span>05</span> DESERT STYLE</figcaption>
+        </figure>
+        <figure class="photo-mosaic__item reveal"><img src="assets/images/lion.jpg" width="960" height="1152"
+            alt="Male lion in golden light" loading="lazy">
+          <figcaption><span>06</span> PRIDE &amp; PATIENCE</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="closing-call" aria-labelledby="closing-title">
+      <div class="closing-call__pattern" aria-hidden="true"></div>
+      <div class="closing-call__content section-shell reveal">
+        <span class="closing-call__heart" aria-hidden="true">♥</span>
+        <p>LIKE ALL ANIMALS?</p>
+        <h2 id="closing-title">YOU BELONG<br>IN THE <em>KINGDOM.</em></h2>
+        <a class="button button--yellow" href="#top">Return to the gates <span aria-hidden="true">↑</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__top section-shell">
+      <a class="brand brand--footer" href="#top" aria-label="Jemoon's Kingdom, back to top">
         <span class="brand__crown" aria-hidden="true">♛</span>
         <span>JEMOON'S<br>KINGDOM</span>
       </a>
-
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation">
-        <span class="menu-toggle__label">Menu</span>
-        <span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i></span>
-      </button>
-
-      <nav class="primary-nav" id="primary-navigation" aria-label="Primary navigation">
+      <p>Made for someone who loves all animals. A playful digital experience — not a physical zoo.</p>
+      <nav aria-label="Footer navigation">
         <a href="#residents">Residents</a>
         <a href="#wild-facts">Wild facts</a>
-        <a href="#field-lab">Field lab</a>
+        <a href="#field-lab">Wild tech</a>
         <a href="#royal-greeting">Say hello</a>
       </nav>
+    </div>
 
-      <a class="nav-badge" href="#residents">
-        <span>11</span>
-        <small>royal residents</small>
-      </a>
-    </header>
-
-    <main id="main-content">
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <img class="hero__image" src="assets/images/hero-kingdom.jpg" width="1672" height="941" alt="A royal gathering of a llama, giraffe, elephant, tiger, lion, duck and cat in a lush forest" fetchpriority="high">
-        <div class="hero__shade" aria-hidden="true"></div>
-        <div class="hero__content">
-          <p class="eyebrow eyebrow--light"><span>01</span> The royal welcome</p>
-          <h1 id="hero-title">HELLO,<br>YOUR MAJESTY<br><em>JEMOON.</em></h1>
-          <p class="hero__intro">A whole lot of animals. One unforgettable kingdom. Come for the llamas, stay for the quacks, paws, stripes and very serious royal roars.</p>
-          <div class="hero__actions">
-            <a class="button button--yellow" href="#residents">Meet the residents <span aria-hidden="true">↘</span></a>
-            <a class="text-link text-link--light" href="#royal-greeting">Get a royal greeting <span aria-hidden="true">→</span></a>
-          </div>
-        </div>
-
-        <div class="hero__seal" aria-hidden="true">
-          <span>ALL<br>ANIMALS<br>LOVED</span>
-          <b>♥</b>
-        </div>
-
-        <div class="hero__caption">
-          <span>THE KINGDOM / 2026</span>
-          <span>ROARS • QUACKS • HUMS</span>
-        </div>
-      </section>
-
-      <section class="animal-roll" aria-label="Animals in Jemoon's Kingdom">
-        <div class="animal-roll__track">
-          <span>LLAMAS</span><b>✦</b><span>DUCKS</span><b>✦</b><span>CATS</span><b>✦</b><span>DOGS</span><b>✦</b><span>CROCODILES</span><b>✦</b><span>CAMELS</span><b>✦</b><span>HORSES</span><b>✦</b><span>ELEPHANTS</span><b>✦</b><span>GIRAFFES</span><b>✦</b><span>LIONS</span><b>✦</b><span>TIGERS</span><b>✦</b>
-          <span aria-hidden="true">LLAMAS</span><b aria-hidden="true">✦</b><span aria-hidden="true">DUCKS</span><b aria-hidden="true">✦</b><span aria-hidden="true">CATS</span><b aria-hidden="true">✦</b><span aria-hidden="true">DOGS</span><b aria-hidden="true">✦</b><span aria-hidden="true">CROCODILES</span><b aria-hidden="true">✦</b><span aria-hidden="true">CAMELS</span><b aria-hidden="true">✦</b><span aria-hidden="true">HORSES</span><b aria-hidden="true">✦</b><span aria-hidden="true">ELEPHANTS</span><b aria-hidden="true">✦</b><span aria-hidden="true">GIRAFFES</span><b aria-hidden="true">✦</b><span aria-hidden="true">LIONS</span><b aria-hidden="true">✦</b><span aria-hidden="true">TIGERS</span><b aria-hidden="true">✦</b>
-        </div>
-      </section>
-
-      <section class="kingdom-intro section-shell" aria-labelledby="kingdom-intro-title">
-        <div class="kingdom-intro__lead reveal">
-          <p class="eyebrow"><span>02</span> The big idea</p>
-          <h2 id="kingdom-intro-title">NOT JUST A ZOO.<br>A <mark>LOUD, LOVELY</mark><br>LIVING KINGDOM.</h2>
-        </div>
-        <div class="kingdom-intro__copy reveal">
-          <p class="intro-big">Built for someone who said “I like all animals” — and absolutely meant it.</p>
-          <p>This is a digital kingdom where every resident gets a portrait, a personality and one brilliant fact. No tickets, no cages, just curiosity.</p>
-          <div class="quick-stats" role="group" aria-label="Kingdom highlights">
-            <div><strong>11</strong><span>resident species</span></div>
-            <div><strong>05</strong><span>wild habitats</span></div>
-            <div><strong>∞</strong><span>reasons to care</span></div>
-          </div>
-        </div>
-        <div class="kingdom-intro__stamp reveal" aria-hidden="true">
-          <span>OPEN FOR<br>CURIOUS<br>MINDS</span>
-        </div>
-      </section>
-
-      <section class="residents section-shell" id="residents" aria-labelledby="residents-title">
-        <div class="section-heading reveal">
-          <div>
-            <p class="eyebrow"><span>03</span> The royal directory</p>
-            <h2 id="residents-title">MEET THE<br><em>RESIDENTS.</em></h2>
-          </div>
-          <p>Filter by habitat, open a field note, or let the kingdom choose someone for you.</p>
-        </div>
-
-        <div class="resident-toolbar reveal">
-          <div class="filters" role="group" aria-label="Filter residents by habitat">
-            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>11</span></button>
-            <button class="filter-button" type="button" data-filter="companions" aria-pressed="false">Companions <span>2</span></button>
-            <button class="filter-button" type="button" data-filter="meadow" aria-pressed="false">Meadow <span>3</span></button>
-            <button class="filter-button" type="button" data-filter="desert" aria-pressed="false">Desert <span>1</span></button>
-            <button class="filter-button" type="button" data-filter="savannah" aria-pressed="false">Savannah <span>3</span></button>
-            <button class="filter-button" type="button" data-filter="wild" aria-pressed="false">Wild side <span>2</span></button>
-          </div>
-          <button class="surprise-button" id="surprise-animal" type="button">Surprise me <span aria-hidden="true">✦</span></button>
-        </div>
-        <p class="filter-status" id="filter-status" aria-live="polite">Showing all 11 royal residents.</p>
-
-        <div class="resident-grid" id="resident-grid">
-          <article class="resident-card resident-card--wide tone-yellow reveal" data-category="meadow">
-            <div class="resident-card__media">
-              <img src="assets/images/llama.jpg" width="960" height="640" alt="Two llamas walking beside a colorful high-altitude lake" loading="lazy">
-              <span class="resident-card__number">01</span>
-              <span class="resident-card__tag">Meadow crew</span>
-            </div>
-            <div class="resident-card__body">
-              <div><p class="resident-card__latin">Lama glama</p><h3>LLAMA</h3></div>
-              <p>The soft-spoken ambassador with excellent ears and impeccable mountain style.</p>
-              <details class="field-note"><summary>Open field note <span aria-hidden="true">+</span></summary><p>Llamas hum to communicate. Their ears and body posture also reveal how they are feeling.</p></details>
-            </div>
-          </article>
-
-          <article class="resident-card tone-blue reveal" data-category="meadow">
-            <div class="resident-card__media">
-              <img src="assets/images/duck.jpg" width="960" height="589" alt="A female and male mallard standing together at the water's edge" loading="lazy">
-              <span class="resident-card__number">02</span>
-              <span class="resident-card__tag">Pond patrol</span>
-            </div>
-            <div class="resident-card__body">
-              <div><p class="resident-card__latin">Anas platyrhynchos</p><h3>DUCK</h3></div>
-              <p>Professional puddle inspector. Always dressed for unexpected weather.</p>
-              <details class="field-note"><summary>Open field note <span aria-hidden="true">+</span></summary><p>Ducks spread oil from a preen gland across their feathers, helping the outer layer repel water.</p></details>
-            </div>
-          </article>
-
-          <article class="resident-card tone-pink reveal" data-category="companions">
-            <div class="resident-card__media">
-              <img src="assets/images/cat.jpg" width="960" height="1282" alt="A striped tabby cat sitting in snow" loading="lazy">
-              <span class="resident-card__number">03</span>
-              <span class="resident-card__tag">Castle cat</span>
-            </div>
-            <div class="resident-card__body">
-              <div><p class="resident-card__latin">Felis catus</p><h3>CAT</h3></div>
-              <p>Keeper of windowsills, cardboard boxes and several royal secrets.</p>
-              <details class="field-note"><summary>Open field note <span aria-hidden="true">+</span></summary><p>A cat's whiskers are sensitive touch tools that help it judge nearby spaces and air movement.</p></details>
-            </div>
-          </article>
-
-          <article class="resident-card tone-coral reveal" data-category="companions">
-            <div class="resident-card__media">
-              <img src="assets/images/dog.jpg" width="960" height="720" alt="A brown dog looking toward the camera in warm water" loading="lazy">
-              <span class="resident-card__number">04</span>
-              <span class="resident-card__tag">Best friend</span>
-            </div>
-            <div class="resident-card__body">
-              <div><p class="resident-card__latin">Canis familiaris</p><h3>DOG</h3></div>
-              <p>Chief welcome officer. Tail-powered, loyal and ready for every expedition.</p>
-              <details class="field-note"><summary>Open field note <span aria-hidden="true">+</span></summary><p>A moist nose helps trap scent particles, giving a dog's remarkable sense of smell more information.</p></details>
-            </div>
-          </article>
-
-          <article class="resident-card resident-card--panorama tone-green reveal" data-category="wild">
-            <div class="resident-card__media">
-              <img src="assets/images/crocodile.jpg" width="960" height="475" alt="A Nile crocodile resting in golden grass" loading="lazy">
-              <span class="resident-card__number">05</span>
-              <span class="resident-card__tag">River royalty</span>
-            </div>
-            <div class="resident-card__body">
-              <div><p class="resident-card__latin">Crocodylus niloticus</p><h3>CROCODILE</h3></div>
-              <p>Ancient armor, patient eyes and the quiet confidence of a river legend.</p>
-              <details class="field-note"><summary>Open field note <span aria-hidden="true">+</span></summary><p>Crocodiles replace worn teeth throughout their lives and can grow thousands of teeth over time.</p></details>
-            </div>
-          </article>
-
-          <article class="resident-card tone-sand reveal" data-category="desert">
-            <div class="resident-card__media">
-              <img src="assets/images/camel.jpg" width="960" height="592" alt="A decorated dromedary camel resting on desert sand" loading="lazy">
-              <span class="resident-card__number">06</span>
-              <span class="resident-card__tag">Desert club</span>
-            </div>
-            <div class="resident-card__body">
-              <div><p class="resident-card__latin">Camelus dromedarius</p><h3>CAMEL</h3></div>
-              <p>The long-distance expert who makes hot sand look like a royal runway.</p>
-              <details class="field-note"><summary>Open field note <span aria-hidden="true">+</span></summary><p>A camel's hump stores energy-rich fat, not water. That reserve helps when food is scarce.</p></details>
-            </div>
-          </article>
-
-          <article class="resident-card tone-cream reveal" data-category="meadow">
-            <div class="resident-card__media">
-              <img src="assets/images/horse.jpg" width="960" height="676" alt="A white and brown horse standing beside a pale wall" loading="lazy">
-              <span class="resident-card__number">07</span>
-              <span class="resident-card__tag">Meadow crew</span>
-            </div>
-            <div class="resident-card__body">
-              <div><p class="resident-card__latin">Equus caballus</p><h3>HORSE</h3></div>
-              <p>Wind in the mane, thunder in the hooves and kindness in the eyes.</p>
-              <details class="field-note"><summary>Open field note <span aria-hidden="true">+</span></summary><p>Horses can doze while standing thanks to a system of tendons and ligaments called the stay apparatus.</p></details>
-            </div>
-          </article>
-
-          <article class="resident-card tone-blue reveal" data-category="savannah">
-            <div class="resident-card__media">
-              <img src="assets/images/elephant.jpg" width="960" height="640" alt="An African elephant walking with a young calf through green bush" loading="lazy">
-              <span class="resident-card__number">08</span>
-              <span class="resident-card__tag">Gentle giant</span>
-            </div>
-            <div class="resident-card__body">
-              <div><p class="resident-card__latin">Loxodonta africana</p><h3>ELEPHANT</h3></div>
-              <p>A family-first giant with a memory, a map and a language of rumbles.</p>
-              <details class="field-note"><summary>Open field note <span aria-hidden="true">+</span></summary><p>Elephants use very low rumbles that can travel far through air and ground to reach distant family.</p></details>
-            </div>
-          </article>
-
-          <article class="resident-card tone-yellow reveal" data-category="savannah">
-            <div class="resident-card__media resident-card__media--portrait">
-              <img src="assets/images/giraffe.jpg" width="960" height="1439" alt="A giraffe portrait framed by leafy trees" loading="lazy">
-              <span class="resident-card__number">09</span>
-              <span class="resident-card__tag">High society</span>
-            </div>
-            <div class="resident-card__body">
-              <div><p class="resident-card__latin">Giraffa camelopardalis</p><h3>GIRAFFE</h3></div>
-              <p>Head in the leaves, feet on the ground, always seeing the bigger picture.</p>
-              <details class="field-note"><summary>Open field note <span aria-hidden="true">+</span></summary><p>A giraffe's dark, flexible tongue can be around 45 centimetres long — perfect for reaching leaves.</p></details>
-            </div>
-          </article>
-
-          <article class="resident-card tone-coral reveal" data-category="savannah">
-            <div class="resident-card__media">
-              <img src="assets/images/lion.jpg" width="960" height="1152" alt="A male lion resting in warm evening light" loading="lazy">
-              <span class="resident-card__number">10</span>
-              <span class="resident-card__tag">The pride</span>
-            </div>
-            <div class="resident-card__body">
-              <div><p class="resident-card__latin">Panthera leo</p><h3>LION</h3></div>
-              <p>Big voice, excellent mane, surprisingly committed to afternoon naps.</p>
-              <details class="field-note"><summary>Open field note <span aria-hidden="true">+</span></summary><p>Lions are the most social wild cats and usually live in family groups called prides.</p></details>
-            </div>
-          </article>
-
-          <article class="resident-card tone-green reveal" data-category="wild">
-            <div class="resident-card__media">
-              <img src="assets/images/tiger.jpg" width="960" height="640" alt="A Bengal tiger walking through green forest grass" loading="lazy">
-              <span class="resident-card__number">11</span>
-              <span class="resident-card__tag">Stripe society</span>
-            </div>
-            <div class="resident-card__body">
-              <div><p class="resident-card__latin">Panthera tigris</p><h3>TIGER</h3></div>
-              <p>Forest flame, silent footsteps and a stripe pattern nobody else owns.</p>
-              <details class="field-note"><summary>Open field note <span aria-hidden="true">+</span></summary><p>Every tiger has a unique stripe pattern — and the skin beneath its fur is striped too.</p></details>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="wild-facts" id="wild-facts" aria-labelledby="wild-facts-title">
-        <div class="wild-facts__title section-shell reveal">
-          <p class="eyebrow eyebrow--light"><span>04</span> Wild truths</p>
-          <h2 id="wild-facts-title">SMALL FACTS.<br><em>BIG WOW.</em></h2>
-          <p>Three details that make an already wild world even more remarkable.</p>
-        </div>
-
-        <div class="fact-panels section-shell">
-          <article class="fact-panel fact-panel--giraffe reveal">
-            <img src="assets/images/giraffe.jpg" width="960" height="1439" alt="Close portrait of a giraffe among green leaves" loading="lazy">
-            <div class="fact-panel__copy">
-              <span>45 CM</span>
-              <h3>ONE VERY<br>HANDY TONGUE</h3>
-              <p>A giraffe uses its long tongue and mobile lips to browse between thorns and reach the best leaves.</p>
-            </div>
-          </article>
-
-          <article class="fact-panel fact-panel--tiger reveal">
-            <div class="fact-panel__copy">
-              <span>1 OF 1</span>
-              <h3>STRIPES WITH<br>A SIGNATURE</h3>
-              <p>No two tigers wear the same pattern. Researchers can identify individuals from photographs of their stripes.</p>
-            </div>
-            <img src="assets/images/tiger.jpg" width="960" height="640" alt="Bengal tiger showing its distinctive black stripes" loading="lazy">
-          </article>
-
-          <article class="fact-panel fact-panel--elephant reveal">
-            <img src="assets/images/elephant.jpg" width="960" height="640" alt="African elephant and calf walking together" loading="lazy">
-            <div class="fact-panel__copy">
-              <span>LOW &amp; LONG</span>
-              <h3>A RUMBLE THAT<br>TRAVELS</h3>
-              <p>Some elephant calls are below the range of human hearing and can carry over great distances.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="field-lab" id="field-lab" aria-labelledby="field-lab-title">
-        <div class="field-lab__heading section-shell reveal">
-          <p class="eyebrow"><span>05</span> Laptop + phone expedition</p>
-          <h2 id="field-lab-title">THE WILD<br><em>TECH LAB.</em></h2>
-          <p>Track paws, feathers and rumbles from a ranger's laptop or carry the whole field station in your pocket.</p>
-        </div>
-
-        <div class="field-lab__stage section-shell reveal">
-          <div class="field-lab__photo">
-            <img src="assets/images/wild-tech-lab.jpg" width="1672" height="941" alt="A laptop and phone displaying wildlife tracking maps at an outdoor field station with a duck and dog" loading="lazy">
-            <span class="photo-label photo-label--one">RANGER DESK / ONLINE</span>
-            <span class="photo-label photo-label--two">POCKET SAFARI / SYNCED</span>
-          </div>
-
-          <div class="lab-console">
-            <div class="lab-console__topline"><span>LIVE OBSERVATION</span><i aria-hidden="true"></i></div>
-            <p class="lab-console__label">Choose a signal</p>
-            <div class="lab-tabs" role="group" aria-label="Choose an animal signal">
-              <button type="button" class="lab-tab is-active" data-lab-species="tiger" aria-pressed="true">Tiger</button>
-              <button type="button" class="lab-tab" data-lab-species="elephant" aria-pressed="false">Elephant</button>
-              <button type="button" class="lab-tab" data-lab-species="duck" aria-pressed="false">Duck</button>
-              <button type="button" class="lab-tab" data-lab-species="llama" aria-pressed="false">Llama</button>
-            </div>
-
-            <div class="lab-reading" aria-live="polite">
-              <div class="lab-reading__symbol" id="lab-symbol" aria-hidden="true">////</div>
-              <p class="lab-reading__kicker" id="lab-kicker">STRIPE SIGNAL / 11</p>
-              <h3 id="lab-name">BENGAL TIGER</h3>
-              <dl>
-                <div><dt>Habitat</dt><dd id="lab-habitat">Forest edge</dd></div>
-                <div><dt>Status</dt><dd id="lab-status">Moving east</dd></div>
-                <div><dt>Signal</dt><dd id="lab-signal">Strong · 92%</dd></div>
-              </dl>
-              <p id="lab-fact">Camera-trap photos can identify a tiger by its one-of-a-kind stripes.</p>
-            </div>
-
-            <div class="lab-console__footer">
-              <span>01:24:36 UTC</span>
-              <span>FIELD UNIT JK–04</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="tech-benefits section-shell">
-          <article class="reveal"><span>01</span><h3>SEE THE PATTERN</h3><p>A laptop turns many sightings into one clear habitat story.</p></article>
-          <article class="reveal"><span>02</span><h3>TAKE IT OUTSIDE</h3><p>A phone keeps maps and field notes close without taking you out of the moment.</p></article>
-          <article class="reveal"><span>03</span><h3>CARE WITH DATA</h3><p>Good observation helps people protect routes, water and safe places to rest.</p></article>
-        </div>
-      </section>
-
-      <section class="royal-playground section-shell" id="royal-greeting" aria-labelledby="royal-greeting-title">
-        <div class="greeting-card reveal">
-          <p class="eyebrow"><span>06</span> The royal greeting machine</p>
-          <h2 id="royal-greeting-title">WHO SHOULD SAY<br><em>HELLO?</em></h2>
-          <p>Pick a resident. The kingdom will handle the formalities.</p>
-
-          <form class="greeting-form" id="greeting-form">
-            <label for="greeting-animal">Choose your ambassador</label>
-            <div class="select-wrap">
-              <select id="greeting-animal" name="animal">
-                <option value="llama">Llama</option>
-                <option value="duck">Duck</option>
-                <option value="cat">Cat</option>
-                <option value="dog">Dog</option>
-                <option value="crocodile">Crocodile</option>
-                <option value="camel">Camel</option>
-                <option value="horse">Horse</option>
-                <option value="elephant">Elephant</option>
-                <option value="giraffe">Giraffe</option>
-                <option value="lion">Lion</option>
-                <option value="tiger">Tiger</option>
-              </select>
-              <span aria-hidden="true">↓</span>
-            </div>
-            <button class="button button--black" type="submit">Deliver greeting <span aria-hidden="true">→</span></button>
-          </form>
-
-          <div class="greeting-output" id="greeting-output" aria-live="polite">
-            <span class="greeting-output__icon" aria-hidden="true">♛</span>
-            <p>“Hmmm hello, Your Majesty Jemoon. The llamas saved you the best mountain view.”</p>
-          </div>
-        </div>
-
-        <div class="quiz-card reveal">
-          <div class="quiz-card__top"><span>QUICK QUIZ</span><span id="quiz-progress">01 / 04</span></div>
-          <div class="quiz-card__body">
-            <p class="quiz-card__label">CAN YOU SPOT THE WILD TRUTH?</p>
-            <h2 id="quiz-question" tabindex="-1">WHAT DOES A CAMEL KEEP IN ITS HUMP?</h2>
-            <div class="quiz-options" id="quiz-options" role="group" aria-labelledby="quiz-question"></div>
-            <p class="quiz-feedback" id="quiz-feedback" aria-live="polite"></p>
-            <button class="quiz-next" id="quiz-next" type="button" hidden>Next question <span aria-hidden="true">→</span></button>
-          </div>
-          <div class="quiz-card__scribble" aria-hidden="true">?</div>
-        </div>
-      </section>
-
-      <section class="moments" aria-labelledby="moments-title">
-        <div class="moments__heading section-shell reveal">
-          <p class="eyebrow"><span>07</span> Kingdom moments</p>
-          <h2 id="moments-title">A VERY FULL<br><em>ROYAL ALBUM.</em></h2>
-          <p>High necks, low rumbles, wet paws and one absolutely unbothered crocodile.</p>
-        </div>
-
-        <div class="photo-mosaic">
-          <figure class="photo-mosaic__item reveal"><img src="assets/images/cat.jpg" width="960" height="1282" alt="Tabby cat posing in the snow" loading="lazy"><figcaption><span>01</span> THE CASTLE CAT</figcaption></figure>
-          <figure class="photo-mosaic__item reveal"><img src="assets/images/crocodile.jpg" width="960" height="475" alt="Nile crocodile resting in evening light" loading="lazy"><figcaption><span>02</span> STILL WATERS</figcaption></figure>
-          <figure class="photo-mosaic__item reveal"><img src="assets/images/horse.jpg" width="960" height="676" alt="Horse portrait against a pale wall" loading="lazy"><figcaption><span>03</span> MANE CHARACTER</figcaption></figure>
-          <figure class="photo-mosaic__item reveal"><img src="assets/images/duck.jpg" width="960" height="589" alt="Pair of mallard ducks by the water" loading="lazy"><figcaption><span>04</span> DOUBLE QUACK</figcaption></figure>
-          <figure class="photo-mosaic__item reveal"><img src="assets/images/camel.jpg" width="960" height="592" alt="Decorated camel in the Thar desert" loading="lazy"><figcaption><span>05</span> DESERT STYLE</figcaption></figure>
-          <figure class="photo-mosaic__item reveal"><img src="assets/images/lion.jpg" width="960" height="1152" alt="Male lion in golden light" loading="lazy"><figcaption><span>06</span> PRIDE &amp; PATIENCE</figcaption></figure>
-        </div>
-      </section>
-
-      <section class="closing-call" aria-labelledby="closing-title">
-        <div class="closing-call__pattern" aria-hidden="true"></div>
-        <div class="closing-call__content section-shell reveal">
-          <span class="closing-call__heart" aria-hidden="true">♥</span>
-          <p>LIKE ALL ANIMALS?</p>
-          <h2 id="closing-title">YOU BELONG<br>IN THE <em>KINGDOM.</em></h2>
-          <a class="button button--yellow" href="#top">Return to the gates <span aria-hidden="true">↑</span></a>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="site-footer__top section-shell">
-        <a class="brand brand--footer" href="#top" aria-label="Jemoon's Kingdom, back to top">
-          <span class="brand__crown" aria-hidden="true">♛</span>
-          <span>JEMOON'S<br>KINGDOM</span>
-        </a>
-        <p>Made for someone who loves all animals. A playful digital experience — not a physical zoo.</p>
-        <nav aria-label="Footer navigation">
-          <a href="#residents">Residents</a>
-          <a href="#wild-facts">Wild facts</a>
-          <a href="#field-lab">Wild tech</a>
-          <a href="#royal-greeting">Say hello</a>
-        </nav>
+    <details class="photo-credits section-shell">
+      <summary>Photo credits &amp; open licences <span aria-hidden="true">+</span></summary>
+      <div class="photo-credits__grid">
+        <p>Original hero and Wild Tech Lab artwork generated for this project. Wikimedia photographs were resized for
+          the web and are presented with responsive CSS crops.</p>
+        <ul>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Lama_glama_Laguna_Colorada_2.jpg" target="_blank"
+              rel="noopener noreferrer">Llamas — kallerna</a> · <a
+              href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA
+              4.0</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male_female.jpg" target="_blank"
+              rel="noopener noreferrer">Ducks — Richard Bartz</a> · <a
+              href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank" rel="noopener noreferrer">CC BY-SA
+              2.5</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg" target="_blank"
+              rel="noopener noreferrer">Cat — Alvesgaspar</a> · <a
+              href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA
+              3.0</a></li>
+          <li><a
+              href="https://commons.wikimedia.org/wiki/File:Liver_yellow_dog_in_the_water_looking_at_viewer_at_golden_hour_in_Don_Det_Laos.jpg"
+              target="_blank" rel="noopener noreferrer">Dog — Basile Morin</a> · <a
+              href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA
+              4.0</a></li>
+          <li><a
+              href="https://commons.wikimedia.org/wiki/File:Cocodrilo_del_Nilo_(Crocodylus_niloticus),_parque_nacional_de_Chobe,_Botsuana,_2018-07-28,_DD_86.jpg"
+              target="_blank" rel="noopener noreferrer">Crocodile — Diego Delso</a> · <a
+              href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA
+              4.0</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Dromedary_in_Thar_desert.jpg" target="_blank"
+              rel="noopener noreferrer">Camel — Clément Bardot</a> · <a
+              href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA
+              4.0</a></li>
+        </ul>
+        <ul>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Horse_December_2014-1.jpg" target="_blank"
+              rel="noopener noreferrer">Horse — Alvesgaspar</a> · <a
+              href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA
+              4.0</a></li>
+          <li><a
+              href="https://commons.wikimedia.org/wiki/File:African_bush_elephants_(Loxodonta_africana)_female_with_six-week-old_baby.jpg"
+              target="_blank" rel="noopener noreferrer">Elephants — Charles J. Sharp</a> · <a
+              href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA
+              4.0</a></li>
+          <li><a
+              href="https://commons.wikimedia.org/wiki/File:006_Giraffe_portrait_in_the_Lake_Manyara_National_Park_Photo_by_Giles_Laurent.jpg"
+              target="_blank" rel="noopener noreferrer">Giraffe — Giles Laurent</a> · <a
+              href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA
+              4.0</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Lion_(Panthera_leo)_male_6y.jpg" target="_blank"
+              rel="noopener noreferrer">Lion — Charles J. Sharp</a> · <a
+              href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA
+              4.0</a></li>
+          <li><a href="https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3.jpg"
+              target="_blank" rel="noopener noreferrer">Tiger — Charles J. Sharp</a> · <a
+              href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA
+              4.0</a></li>
+        </ul>
       </div>
+    </details>
 
-      <details class="photo-credits section-shell">
-        <summary>Photo credits &amp; open licences <span aria-hidden="true">+</span></summary>
-        <div class="photo-credits__grid">
-          <p>Original hero and Wild Tech Lab artwork generated for this project. Wikimedia photographs were resized for the web and are presented with responsive CSS crops.</p>
-          <ul>
-            <li><a href="https://commons.wikimedia.org/wiki/File:Lama_glama_Laguna_Colorada_2.jpg" target="_blank" rel="noopener noreferrer">Llamas — kallerna</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></li>
-            <li><a href="https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male_female.jpg" target="_blank" rel="noopener noreferrer">Ducks — Richard Bartz</a> · <a href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank" rel="noopener noreferrer">CC BY-SA 2.5</a></li>
-            <li><a href="https://commons.wikimedia.org/wiki/File:Cat_November_2010-1a.jpg" target="_blank" rel="noopener noreferrer">Cat — Alvesgaspar</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a></li>
-            <li><a href="https://commons.wikimedia.org/wiki/File:Liver_yellow_dog_in_the_water_looking_at_viewer_at_golden_hour_in_Don_Det_Laos.jpg" target="_blank" rel="noopener noreferrer">Dog — Basile Morin</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></li>
-            <li><a href="https://commons.wikimedia.org/wiki/File:Cocodrilo_del_Nilo_(Crocodylus_niloticus),_parque_nacional_de_Chobe,_Botsuana,_2018-07-28,_DD_86.jpg" target="_blank" rel="noopener noreferrer">Crocodile — Diego Delso</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></li>
-            <li><a href="https://commons.wikimedia.org/wiki/File:Dromedary_in_Thar_desert.jpg" target="_blank" rel="noopener noreferrer">Camel — Clément Bardot</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></li>
-          </ul>
-          <ul>
-            <li><a href="https://commons.wikimedia.org/wiki/File:Horse_December_2014-1.jpg" target="_blank" rel="noopener noreferrer">Horse — Alvesgaspar</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></li>
-            <li><a href="https://commons.wikimedia.org/wiki/File:African_bush_elephants_(Loxodonta_africana)_female_with_six-week-old_baby.jpg" target="_blank" rel="noopener noreferrer">Elephants — Charles J. Sharp</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></li>
-            <li><a href="https://commons.wikimedia.org/wiki/File:006_Giraffe_portrait_in_the_Lake_Manyara_National_Park_Photo_by_Giles_Laurent.jpg" target="_blank" rel="noopener noreferrer">Giraffe — Giles Laurent</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></li>
-            <li><a href="https://commons.wikimedia.org/wiki/File:Lion_(Panthera_leo)_male_6y.jpg" target="_blank" rel="noopener noreferrer">Lion — Charles J. Sharp</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></li>
-            <li><a href="https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3.jpg" target="_blank" rel="noopener noreferrer">Tiger — Charles J. Sharp</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></li>
-          </ul>
-        </div>
-      </details>
+    <div class="site-footer__bottom section-shell">
+      <span>© <span id="current-year">2026</span> JEMOON'S KINGDOM</span>
+      <span>BUILT WITH CURIOSITY + CARE</span>
+      <a href="#top">BACK TO TOP ↑</a>
+    </div>
+  </footer>
+</body>
 
-      <div class="site-footer__bottom section-shell">
-        <span>© <span id="current-year">2026</span> JEMOON'S KINGDOM</span>
-        <span>BUILT WITH CURIOSITY + CARE</span>
-        <a href="#top">BACK TO TOP ↑</a>
-      </div>
-    </footer>
-  </body>
 </html>
